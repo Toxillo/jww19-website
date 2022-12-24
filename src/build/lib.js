@@ -14,7 +14,7 @@ marked.use({renderer: {
         }
     },
     image(href, title, text) {
-        return `<img src="${href}" title="${title}" alt="${text}" loading="lazy" />`;
+        return `<img src="${href}" title="${text}" alt="${text}" loading="lazy" />`;
     }
 }});
 
