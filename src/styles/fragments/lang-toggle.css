@@ -1,0 +1,19 @@
+#lang-toggle {
+    display: block;
+    height: 3rem;
+}
+
+#lang-toggle>a {
+    float: right;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: black;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border: 2px solid grey;
+}
+
+#lang-toggle>a>img {
+    height: 2rem;
+}

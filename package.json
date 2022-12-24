@@ -1,0 +1,17 @@
+{
+  "name": "jww19",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build.js",
+  "scripts": {
+    "clean": "rm node_modules/ public/en public/de -r ",
+    "build": "node src/build/build.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "marked": "^4.2.4"
+  }
+}

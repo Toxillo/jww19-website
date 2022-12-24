@@ -1,0 +1,57 @@
+.topic {
+    margin: 1rem;
+    border-bottom: 1px solid grey;
+}
+
+.topic>.heading-link {
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin: 0;
+    margin-top: 1rem;
+    width: fit-content;
+}
+
+.topic>.heading-link>h2 {
+    display: inline-block;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.topic>.heading-link>h2>span {
+    color: rgb(197, 197, 197);
+    display: inline-block;
+    height: 1.2rem;
+    width: 1.2rem;
+}
+
+.topic>.heading-link:hover>h2>span {
+    color: #0075e2;
+}
+
+.topic>.edit {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0 0 auto;
+    width: max-content;
+    height: 2rem;
+}
+
+.topic>.edit>img {
+    display: inline-block;
+    height: 2rem;
+}
+
+.topic>.edit {
+    text-decoration: none;
+}
+
+.topic>.edit>p {
+    color: rgb(197, 197, 197);
+    display: inline-block;
+    margin: 0;
+}
+
+.topic>.edit:hover>p {
+    color: black;
+}

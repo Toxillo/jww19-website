@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="<%= lang %>">
+
+<head>
+    <title>
+        <%= title %>
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="description" content="<%= description %>">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <%- internalCSS %>
+</head>
+
+<body>
+    <img id="background" src="../img/exterior_back.webp" alt="" >
+
+    <nav>
+        <div>
+            <input type="checkbox" id="menu">
+            <label for="menu" id="menu-button"><img src="../img/menu.svg" alt=""></label>
+            <div id="nav-panel">
+                <div id="panel-header">
+                    <h1>
+                        <%= indexTitle %>
+                    </h1>
+                    <label for="menu"><img src="../img/cross.svg" alt=""></label>
+                </div>
+                <div id="index">
+                    <%- pageIndex %>
+                </div>
+            </div>
+        </div>
+        <div id="quick-nav">
+            <a href="../<%= lang %>/index.html" id="home"><img src="../img/home.svg" alt=""></a>
+        </div>
+    </nav>
+    <%- langToggle %>
+        <main class="content">
+            <%- content %>
+        </main>
+        <%- footer %>
+            <script>
+                const menu = document.getElementById("menu");
+                document.querySelectorAll(".index-entry").forEach(entry => {
+                    entry.addEventListener("click", () => {
+                        menu.checked = false;
+                    });
+                });
+            </script>
+</body>
+
+</html>

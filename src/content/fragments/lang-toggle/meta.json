@@ -1,0 +1,14 @@
+{
+    "en": {
+        "notLang": {
+            "code": "de",
+            "title": "Deutsch"
+        }
+    },
+    "de": {
+        "notLang": {
+            "code": "en",
+            "title": "English"
+        }
+    }
+}

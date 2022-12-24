@@ -1,0 +1,49 @@
+.content {
+    display: block;
+    margin: 0 auto;
+    padding: 1rem;
+    padding-bottom: 20rem;
+    max-width: 50rem;
+    word-wrap: break-word;
+}
+
+.content a {
+    color: #0075e2;
+}
+
+.content section {
+    margin-bottom: 5rem;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1rem;
+    border: 1px solid grey;
+    box-shadow: 0.5rem 1rem 0 0.25rem rgba(255, 193, 99, 0.658);
+}
+
+.content section h1 {
+    border-bottom: 1px solid grey;
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+.content section h2 {
+    font-size: 1.5rem;
+    position: relative;
+}
+
+.content section h3 {
+    font-size: 1.35rem;
+}
+
+section p,
+ul,
+li,
+ol {
+    font-size: 1.2rem;
+}
+
+.content img {
+    display: block;
+    margin: 0 auto;
+    max-width: calc(100% - 2rem);
+}

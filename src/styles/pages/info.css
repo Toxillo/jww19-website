@@ -1,0 +1,134 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+#background {
+    position: fixed;
+    z-index: -1;
+    min-height: 100vh;
+    min-width: 100vw;
+    filter: blur(5px);
+    top: 0;
+    left: 50vw;
+    transform: translateX(-50%);
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: grid;
+    z-index: 1;
+    grid-template-rows: 3rem calc(100% - 3rem);
+    background-color: white;
+    height: 100vh;
+    width: 3rem;
+    border-right: 2px solid grey;
+}
+
+#menu {
+    display: none;
+}
+
+#menu:checked~#nav-panel {
+    position: fixed;
+    top: 0;
+    left: calc(3rem + 2px);
+    display: grid;
+    grid-template-rows: 3rem calc(100% - 3rem);
+    background-color: rgb(208, 220, 228);
+    width: 75%;
+    max-width: 30rem;
+    height: 100%;
+    border-right: 2px solid grey;
+}
+
+#menu-button {
+    display: inline-block;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 3rem;
+    height: 3rem;
+}
+
+#menu-button>img {
+    width: 3rem;
+    height: 3rem;
+}
+
+#quick-nav {
+    display: flex;
+    align-items: flex-end;
+}
+
+#quick-nav>a {
+    display: inline-block;
+    width: 3rem;
+}
+
+label>img {
+    cursor: pointer;
+    height: 3rem;
+    width: 3rem;
+}
+
+#nav-panel {
+    display: none;
+    background-color: rgb(151, 151, 151);
+}
+
+#panel-header {
+    display: grid;
+    height: 3rem;
+    width: 100%;
+    grid-template-columns: auto 3rem;
+}
+
+#panel-header>h1 {
+    margin: auto auto;
+    height: fit-content;
+}
+
+#index {
+    margin: 1rem;
+    overflow: auto;
+}
+
+#index li::marker {
+    content: "";
+}
+
+#index h1 {
+    margin: 0;
+}
+
+#index a {
+    text-decoration: none;
+    color: black;
+}
+
+#index ul {
+    margin-top: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 2rem;
+}
+
+#index li {
+    margin-bottom: 0.25rem;
+    border-bottom: 1px solid grey;
+}
+
+#home {
+    padding: 6rem 0;
+    background-color: rgb(208, 220, 228);
+}
+
+.content {
+    padding-left: 4rem;
+}

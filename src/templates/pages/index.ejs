@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="<%= lang %>">
+
+<head>
+    <title>
+        <%= title %>
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="description" content="<%= description %>">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <%- internalCSS %>
+</head>
+
+<body>
+    <img id="background" src="/img/exterior_front.webp" alt="" >
+
+    <%- langToggle %>
+        <header class="content">
+            <section>
+                <div id="landing"><img src="/img/logo.webp" alt="JWW19 logo" loading="lazy"></div>
+                <%- landingText %>
+            </section>
+        </header>
+
+        <nav>
+            <a href="#contact" id="contact-nav">
+                <h2>
+                    <%= nav.contactUs %>
+                </h2>
+                <span>✉</span>
+            </a>
+            <a href="/<%= lang %>/info.html">
+                <h2>
+                    <%= nav.infoForResidents %>
+                </h2>
+                <span>ℹ</span>
+            </a>
+            <a href="#events" id="events-nav">
+                <h2>
+                    <%= nav.events %>
+                </h2>
+                <span>🎉</span>
+            </a>
+            <a href="#about" id="about-nav">
+                <h2>
+                    <%= nav.about %>
+                </h2>
+                <span>❓</span>
+            </a>
+        </nav>
+
+        <main class="content">
+            <section>
+                <%- content.placeToStay %>
+            </section>
+            <section id="about">
+                <%- content.about %>
+            </section>
+            <section>
+                <%- content.info %>
+            </section>
+            <section id="contact">
+                <%- content.contactUs %>
+            </section>
+            <section id="events">
+                <%- content.events %>
+            </section>
+        </main>
+
+        <%- footer %>
+</body>
+
+</html>

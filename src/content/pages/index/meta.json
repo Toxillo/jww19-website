@@ -1,0 +1,25 @@
+{
+    "pageName": "index",
+    "en": {
+        "lang": "en",
+        "title": "JWW19 - Student dorm at Josef-Wirth-Weg 19",
+        "description": "Student dorm of the Studentenwerk München located at Josef-Wirth-Weg 19.",
+        "nav": {
+            "contactUs": "Contact Us",
+            "infoForResidents": "Info for Residents",
+            "events": "Upcoming Events",
+            "about": "About"
+        }
+    },
+    "de": {
+        "lang": "de",
+        "title": "JWW19 - Wohnheim Josef-Wirth-Weg 19",
+        "description": "Studentenwohnheim des Studentenwerk Münchens bei Josef-Wirth-Weg 19.",
+        "nav": {
+            "contactUs": "Kontaktdaten",
+            "infoForResidents": "Informationen für Mitbewohner",
+            "events": "Veranstaltungen",
+            "about": "Über uns"
+        }
+    }
+}

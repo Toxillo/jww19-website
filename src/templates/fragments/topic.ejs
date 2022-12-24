@@ -1,0 +1,17 @@
+<div class="topic" id="<%= topicID %>">
+    <a href="#<%= topicID %>" class="heading-link">
+        <h2>
+            <%= title %>
+                <span>#</span>
+        </h2>
+    </a>
+    <div>
+        <%- body %>
+    </div>
+    <a href="<%= editLink %>" class="edit" target="_blank">
+        <img src="/img/edit.svg" alt="edit" />
+        <p>
+            <%= editButtonText %>
+        </p>
+    </a>
+</div>
