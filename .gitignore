@@ -1,6 +1,7 @@
 node_modules/
 public/en/
 public/de/
+public/index.html
 
 # VS Code
 .vscode/

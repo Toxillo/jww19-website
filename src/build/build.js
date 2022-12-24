@@ -16,4 +16,5 @@ for (const lang of ['en', 'de']) {
     }
 }
 buildIndexPages();
+fs.copyFileSync(PUBLIC_DIR + 'de/index.html', PUBLIC_DIR + 'index.html');
 buildInfoPages();
