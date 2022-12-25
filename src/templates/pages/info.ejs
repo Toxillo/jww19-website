@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <img id="background" src="../img/exterior_back.webp" alt="" >
+    <img id="background" src="../img/exterior_back.webp" alt="">
 
     <nav>
         <div>
@@ -42,12 +42,14 @@
         </main>
         <%- footer %>
             <script>
+                // close menu when item is clicked
                 const menu = document.getElementById("menu");
                 document.querySelectorAll(".index-entry").forEach(entry => {
                     entry.addEventListener("click", () => {
                         menu.checked = false;
                     });
                 });
+                console.log('https://www.youtube.com/watch?v=dQw4w9WgXcQ 👀');
             </script>
 </body>
 

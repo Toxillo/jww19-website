@@ -3,20 +3,22 @@ const {
     marked
 } = require("marked");
 
-marked.use({renderer: {
-    link(href, title, text) {
-        if (href.endsWith("pdf")) {
-            return `<a class="pdf" href="${href}" target="_blank" title="${title}">${text}</a>`
-        } else if ( href.startsWith("http")) {
-            return `<a class="external" href="${href}" target="_blank" title="${title}">${text}</a>`
-        } else {
-            return `<a class="local" href="${href}" title="${title}">${text}</a>`
+marked.use({
+    renderer: {
+        link(href, title, text) {
+            if (href.endsWith("pdf")) {
+                return `<a class="pdf" href="${href}" target="_blank" title="${title}">${text}</a>`
+            } else if (href.startsWith("http")) {
+                return `<a class="external" href="${href}" target="_blank" title="${title}">${text}</a>`
+            } else {
+                return `<a class="local" href="${href}" title="${title}">${text}</a>`
+            }
+        },
+        image(href, title, text) {
+            return `<img src="${href}" title="${text}" alt="${text}" loading="lazy" />`;
         }
-    },
-    image(href, title, text) {
-        return `<img src="${href}" title="${text}" alt="${text}" loading="lazy" />`;
     }
-}});
+});
 
 function parseMultilingualMarkdown(path) {
     let fileContent = fs.readFileSync(path, 'utf-8');
@@ -39,6 +41,7 @@ function parseMultilingualMarkdown(path) {
 }
 
 const ROOT_DIR = __dirname.replace('src/build', '');
+const GITHUB_ROOT = "https://github.com/Haussprecher-JWW19/jww19-website";
 
 module.exports = {
     SRC_DIR: ROOT_DIR + "src/",
@@ -49,6 +52,7 @@ module.exports = {
     PAGES_STYLES_DIR: ROOT_DIR + "src/styles/pages/",
     FRAGMENT_STYLES_DIR: ROOT_DIR + "src/styles/fragments/",
     PUBLIC_DIR: ROOT_DIR + "public/",
-    GITHUB_EDIT_INFO_ROOT: 'https://github.com/Haussprecher-JWW19/jww19-website/edit/main/src/content/pages/info/',
+    GITHUB_ROOT: GITHUB_ROOT,
+    GITHUB_EDIT_INFO_ROOT: GITHUB_ROOT + '/edit/main/src/content/pages/info/',
     parseMultilingualMarkdown: parseMultilingualMarkdown
 }

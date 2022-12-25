@@ -1,12 +1,13 @@
 footer {
+    display: grid;
+    grid-template-columns: auto max-content;
     background-color: rgba(0, 0, 0, 0.7);
-    padding: 0.5rem 0;
-    padding-left: 3rem;
+    padding: 0.5rem 3rem;
 }
 
 footer>div {
-    display: block;
-    width: fit-content;
+    display: flex;
+    flex-direction: row;
     margin: 0 auto;
 }
 
@@ -14,4 +15,13 @@ footer>div>a {
     display: inline;
     margin: 1rem;
     color: white;
+}
+
+#github-link {
+    display: flex;
+    align-items: center;
+}
+
+#github-link>img {
+    height: 2rem;
 }
