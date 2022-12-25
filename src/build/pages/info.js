@@ -10,7 +10,8 @@ const {
     PAGES_STYLES_DIR,
     FRAGMENT_STYLES_DIR,
     GITHUB_EDIT_INFO_ROOT,
-    GITHUB_ROOT
+    GITHUB_ROOT,
+    bundleStyles
 } = require("../lib");
 const path = require("path");
 
@@ -76,43 +77,41 @@ function renderPageIndex(lang) {
 }
 
 const metadata = JSON.parse(fs.readFileSync(INFO_CONTENT_DIR + 'meta.json', 'utf-8'));
-const langToggle = JSON.parse(fs.readFileSync(FRAGMENTS_CONTENT_DIR + 'lang-toggle/meta.json', 'utf-8'));
-
-const internalCSS = '<style>' +
-    fs.readFileSync(FRAGMENT_STYLES_DIR + 'footer.css', 'utf-8') +
-    ' ' +
-    fs.readFileSync(FRAGMENT_STYLES_DIR + 'lang-toggle.css', 'utf-8') +
-    ' ' +
-    fs.readFileSync(FRAGMENT_STYLES_DIR + 'topic.css', 'utf-8') +
-    ' ' +
-    fs.readFileSync(FRAGMENT_STYLES_DIR + 'content.css', 'utf-8') +
-    ' ' +
-    fs.readFileSync(PAGES_STYLES_DIR + 'info.css', 'utf-8') +
-    '</style>'
+const metaTagsTemplate = fs.readFileSync(FRAGMENT_TEMPLATES_DIR + 'metaTags.ejs', 'utf-8');
+const langToggleTemplate = fs.readFileSync(FRAGMENT_TEMPLATES_DIR + 'lang-toggle.ejs', 'utf-8');
+const langToggleData = JSON.parse(fs.readFileSync(FRAGMENTS_CONTENT_DIR + 'lang-toggle/meta.json', 'utf-8'));
+const internalCSS = bundleStyles([
+    FRAGMENT_STYLES_DIR + 'footer.css',
+    FRAGMENT_STYLES_DIR + 'lang-toggle.css',
+    FRAGMENT_STYLES_DIR + 'topic.css',
+    FRAGMENT_STYLES_DIR + 'content.css',
+    PAGES_STYLES_DIR + 'info.css'
+]);
+const footerTemplate = fs.readFileSync(FRAGMENT_TEMPLATES_DIR + 'footer.ejs', 'utf-8');
+const infoTemplate = fs.readFileSync(PAGE_TEMPLATES_DIR + 'info.ejs', 'utf-8');
 
 function buildInfoPage(lang) {
     const pageData = {
         ...metadata[lang],
+        metaTags: ejs.render(metaTagsTemplate, {
+            ...metadata[lang],
+            openGraphImageLink: metadata.openGraphImageLink
+        }),
         internalCSS: internalCSS,
-        langToggle: ejs.render(fs.readFileSync(FRAGMENT_TEMPLATES_DIR + 'lang-toggle.ejs', 'utf-8'), {
-            ...langToggle[lang],
+        langToggle: ejs.render(langToggleTemplate, {
+            ...langToggleData[lang],
             pageName: metadata.pageName
         }),
         pageIndex: renderPageIndex(lang),
         content: renderContent(lang),
-        footer: ejs.render(
-            fs.readFileSync(FRAGMENT_TEMPLATES_DIR + 'footer.ejs', 'utf-8'), {
-                githubLink: GITHUB_ROOT
-            }
-        )
+        footer: ejs.render(footerTemplate, {
+            githubLink: GITHUB_ROOT
+        })
     };
 
     fs.writeFileSync(
         PUBLIC_DIR + lang + '/info.html',
-        ejs.render(
-            fs.readFileSync(PAGE_TEMPLATES_DIR + 'info.ejs', 'utf-8'),
-            pageData
-        ),
+        ejs.render(infoTemplate, pageData),
         'utf-8'
     );
 }

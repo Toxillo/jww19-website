@@ -9,7 +9,8 @@ const {
     FRAGMENT_TEMPLATES_DIR,
     FRAGMENT_STYLES_DIR,
     PAGES_STYLES_DIR,
-    GITHUB_ROOT
+    GITHUB_ROOT,
+    bundleStyles
 } = require("../lib");
 
 const INDEX_CONTENT_DIR = PAGES_CONTENT_DIR + 'index/';
@@ -50,38 +51,40 @@ function renderContent(lang) {
 }
 
 const metadata = JSON.parse(fs.readFileSync(INDEX_CONTENT_DIR + 'meta.json', 'utf-8'));
+const metaTags = fs.readFileSync(FRAGMENT_TEMPLATES_DIR + 'metaTags.ejs', 'utf-8');
+const internalCSS = bundleStyles([
+    FRAGMENT_STYLES_DIR + 'lang-toggle.css',
+    FRAGMENT_STYLES_DIR + 'content.css',
+    FRAGMENT_STYLES_DIR + 'footer.css',
+    PAGES_STYLES_DIR + 'index.css'
+]);
+const langToggleTemplate = fs.readFileSync(FRAGMENT_TEMPLATES_DIR + 'lang-toggle.ejs', 'utf-8');
+const langToggleData = JSON.parse(fs.readFileSync(FRAGMENTS_CONTENT_DIR + 'lang-toggle/meta.json', 'utf-8'));
 const landing = parseMultilingualMarkdown(INDEX_CONTENT_DIR + 'landing.md');
-const langToggle = JSON.parse(fs.readFileSync(FRAGMENTS_CONTENT_DIR + 'lang-toggle/meta.json', 'utf-8'));
+const footerTemplate = fs.readFileSync(FRAGMENT_TEMPLATES_DIR + 'footer.ejs', 'utf-8');
+const indexTemplate = fs.readFileSync(PAGE_TEMPLATES_DIR + 'index.ejs', 'utf-8');
 
 function buildIndexPage(lang) {
     const pageData = {
         ...metadata[lang],
-        internalCSS: '<style>' +
-            fs.readFileSync(PAGES_STYLES_DIR + 'index.css', 'utf-8') +
-            ' ' +
-            fs.readFileSync(FRAGMENT_STYLES_DIR + 'lang-toggle.css', 'utf-8') +
-            ' ' +
-            fs.readFileSync(FRAGMENT_STYLES_DIR + 'footer.css', 'utf-8') +
-            ' ' +
-            fs.readFileSync(FRAGMENT_STYLES_DIR + 'content.css', 'utf-8') +
-            '</style>',
-        langToggle: ejs.render(fs.readFileSync(FRAGMENT_TEMPLATES_DIR + 'lang-toggle.ejs', 'utf-8'), {
-            ...langToggle[lang],
+        metaTags: ejs.render(metaTags, {
+            ...metadata[lang],
+            openGraphImageLink: metadata.openGraphImageLink
+        }),
+        internalCSS: internalCSS,
+        langToggle: ejs.render(langToggleTemplate, {
+            ...langToggleData[lang],
             pageName: metadata.pageName
         }),
         landingText: landing[lang].renderedBody,
         content: renderContent(lang),
-        footer: ejs.render(
-            fs.readFileSync(FRAGMENT_TEMPLATES_DIR + 'footer.ejs', 'utf-8'), {
-                githubLink: GITHUB_ROOT
-            }
-        )
+        footer: ejs.render(footerTemplate, {
+            githubLink: GITHUB_ROOT
+        })
     }
     fs.writeFileSync(
         PUBLIC_DIR + lang + '/index.html',
-        ejs.render(
-            fs.readFileSync(PAGE_TEMPLATES_DIR + 'index.ejs', 'utf-8'), pageData
-        ),
+        ejs.render(indexTemplate, pageData),
         'utf-8'
     );
 }

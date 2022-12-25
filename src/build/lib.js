@@ -40,6 +40,14 @@ function parseMultilingualMarkdown(path) {
     }
 }
 
+function bundleStyles(styleFilePaths) {
+    let bundledStyles = '<style>';
+    for (const filePath of styleFilePaths) {
+        bundledStyles += fs.readFileSync(filePath, 'utf-8') + ' '; 
+    }
+    return bundledStyles + '</style>';
+}
+
 const ROOT_DIR = __dirname.replace('src/build', '');
 const GITHUB_ROOT = "https://github.com/Haussprecher-JWW19/jww19-website";
 
@@ -54,5 +62,6 @@ module.exports = {
     PUBLIC_DIR: ROOT_DIR + "public/",
     GITHUB_ROOT: GITHUB_ROOT,
     GITHUB_EDIT_INFO_ROOT: GITHUB_ROOT + '/blob/main/src/content/pages/info/',
-    parseMultilingualMarkdown: parseMultilingualMarkdown
+    parseMultilingualMarkdown: parseMultilingualMarkdown,
+    bundleStyles: bundleStyles
 }
