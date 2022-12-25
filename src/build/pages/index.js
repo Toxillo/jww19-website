@@ -8,7 +8,8 @@ const {
     FRAGMENTS_CONTENT_DIR,
     FRAGMENT_TEMPLATES_DIR,
     FRAGMENT_STYLES_DIR,
-    PAGES_STYLES_DIR
+    PAGES_STYLES_DIR,
+    GITHUB_ROOT
 } = require("../lib");
 
 const INDEX_CONTENT_DIR = PAGES_CONTENT_DIR + 'index/';
@@ -70,7 +71,11 @@ function buildIndexPage(lang) {
         }),
         landingText: landing[lang].renderedBody,
         content: renderContent(lang),
-        footer: fs.readFileSync(FRAGMENT_TEMPLATES_DIR + 'footer.ejs', 'utf-8')
+        footer: ejs.render(
+            fs.readFileSync(FRAGMENT_TEMPLATES_DIR + 'footer.ejs', 'utf-8'), {
+                githubLink: GITHUB_ROOT
+            }
+        )
     }
     fs.writeFileSync(
         PUBLIC_DIR + lang + '/index.html',

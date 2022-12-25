@@ -53,6 +53,6 @@ module.exports = {
     FRAGMENT_STYLES_DIR: ROOT_DIR + "src/styles/fragments/",
     PUBLIC_DIR: ROOT_DIR + "public/",
     GITHUB_ROOT: GITHUB_ROOT,
-    GITHUB_EDIT_INFO_ROOT: GITHUB_ROOT + '/edit/main/src/content/pages/info/',
+    GITHUB_EDIT_INFO_ROOT: GITHUB_ROOT + '/blob/main/src/content/pages/info/',
     parseMultilingualMarkdown: parseMultilingualMarkdown
 }
