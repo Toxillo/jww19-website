@@ -48,7 +48,7 @@ function bundleStyles(styleFilePaths) {
     return bundledStyles + '</style>';
 }
 
-const ROOT_DIR = __dirname.replace('src/build', '');
+const ROOT_DIR = __dirname.replace(/build$/, '');
 const GITHUB_ROOT = "https://github.com/Haussprecher-JWW19/jww19-website";
 
 module.exports = {

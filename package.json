@@ -1,17 +1,22 @@
 {
-  "name": "jww19",
-  "version": "1.0.0",
-  "description": "",
-  "main": "build.js",
-  "scripts": {
-    "clean": "rm node_modules/ public/en public/de -r ",
-    "build": "node src/build/build.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "ejs": "^3.1.8",
-    "marked": "^4.2.4"
-  }
+    "name": "jww19",
+    "version": "1.0.0",
+    "description": "",
+    "main": "build.js",
+    "scripts": {
+        "clean": "rm public/en public/de -r",
+        "build": "node build/build.js",
+        "dev": "npx live-server public --port=4444 & npx onchange 'src/**' 'build/**' -- npm run build"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "ejs": "^3.1.8",
+        "marked": "^4.2.4"
+    },
+    "devDependencies": {
+        "live-server": "^1.2.2",
+        "onchange": "^7.1.0"
+    }
 }
