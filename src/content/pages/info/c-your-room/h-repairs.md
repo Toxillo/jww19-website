@@ -16,6 +16,6 @@ Ab Januar 2023 müsst ihr Schadensmeldungen online auf der folgenden Seite einh�
 (es ist die gleiche Website auf der ihr eure Immatrikulationsbescheinigung hochlädt)
 
 1. Ihr müsst euch einloggen (die Zugangsdaten solltet ihr bereits vom Studentenwerk bekommen haben).
-2. Die Rubrik _Verträge_ am rechen Rand auswählen.
-3. Eine neue Seite sollte geöffnet werden. Dort müsst ihr euren aktuellen Vertrag auswählen.
+2. Die Rubrik _Verträge_ am rechen Rand anclicken.
+3. Eine neue Seite sollte geöffnet werden. Dort müsst ihr euren aktuellen Vertrag anclicken.
 4. Ihr müsst den Button _Schadensmeldung_ unten links anclicken. Ein Pop-Up in dem ihr den Schaden melden könnt, sollte erscheinen.
