@@ -6,6 +6,7 @@ const {
 marked.use({
     renderer: {
         link(href, title, text) {
+            title = title ? title : "";
             if (href.endsWith("pdf")) {
                 return `<a class="pdf" href="${href}" target="_blank" title="${title}">${text}</a>`
             } else if (href.startsWith("http")) {
@@ -15,7 +16,8 @@ marked.use({
             }
         },
         image(href, title, text) {
-            return `<img src="${href}" title="${text}" alt="${text}" loading="lazy" />`;
+            title = title ? title : text;
+            return `<img src="${href}" title="${title}" alt="${text}" loading="lazy" />`;
         }
     }
 });
