@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://jww19.de</loc>
+        <xhtml:link rel="alternate" hreflang="de" href="https://jww19.de" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://jww19.de/en/index.html" />
+    </url>
+    <url>
+        <loc>https://jww19.de/de/index.html</loc>
+        <xhtml:link rel="alternate" hreflang="de" href="https://jww19.de/de/index.html" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://jww19.de/en/index.html" />
+    </url>
+    <url>
+        <loc>https://jww19.de/en/index.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jww19.de/en/index.html" />
+        <xhtml:link rel="alternate" hreflang="de" href="https://jww19.de/de/index.html" />
+    </url>
+    <url>
+        <loc>https://jww19.de/de/info.html</loc>
+        <xhtml:link rel="alternate" hreflang="de" href="https://jww19.de/de/info.html" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://jww19.de/en/info.html" />
+    </url>
+    <url>
+        <loc>https://jww19.de/en/info.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jww19.de/en/info.html" />
+        <xhtml:link rel="alternate" hreflang="de" href="https://jww19.de/de/info.html" />
+    </url>
+</urlset>

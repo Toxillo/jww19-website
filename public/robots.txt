@@ -1,2 +1,3 @@
 User-agent: *
 Disallow: /img/
+Sitemap: http://jww19.de/sitemap.xml
