@@ -1,6 +1,7 @@
 {
     "pageName": "info",
     "openGraphImageLink": "/img/logo_square_white_info.webp",
+    "openGraphType": "article",
     "en": {
         "lang": "en",
         "title": "Info - JWW19",

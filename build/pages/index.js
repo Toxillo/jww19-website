@@ -69,7 +69,9 @@ function buildIndexPage(lang) {
         ...metadata[lang],
         metaTags: ejs.render(metaTags, {
             ...metadata[lang],
-            openGraphImageLink: metadata.openGraphImageLink
+            openGraphImageLink: metadata.openGraphImageLink, 
+            openGraphType: metadata.openGraphType,
+            pageName: metadata.pageName
         }),
         internalCSS: internalCSS,
         langToggle: ejs.render(langToggleTemplate, {

@@ -95,7 +95,9 @@ function buildInfoPage(lang) {
         ...metadata[lang],
         metaTags: ejs.render(metaTagsTemplate, {
             ...metadata[lang],
-            openGraphImageLink: metadata.openGraphImageLink
+            openGraphImageLink: metadata.openGraphImageLink,
+            openGraphType: metadata.openGraphType,
+            pageName: metadata.pageName
         }),
         internalCSS: internalCSS,
         langToggle: ejs.render(langToggleTemplate, {
