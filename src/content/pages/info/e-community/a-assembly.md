@@ -5,7 +5,7 @@ We have a general assembly in the [assembly hall](#e-assembly-hall) at the begin
 You can get an overview of the electable offices [below](#b-self-admin).
 
 <!-- Deutsch -->
-## Volleversammlung
+## Vollversammlung
 Zu Beginn jeden Semesters gibt es eine Vollversammlung in der [Aula](#e-assembly-hall). **Bitte nimmt an dieser Versammlung teil**, da dort die studentische Selbstverwaltung gewählt wird. Des weiteren ist dies eine sehr gute Möglichkeit, Fragen und Anregungen los zu werden.
 
 Eine Übersicht zu den Stellen in der studentischen Selbstverwaltung findet ihr [unten](#b-self-admin).
