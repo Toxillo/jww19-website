@@ -64,14 +64,15 @@ const landing = parseMultilingualMarkdown(INDEX_CONTENT_DIR + 'landing.md');
 const footerTemplate = fs.readFileSync(FRAGMENT_TEMPLATES_DIR + 'footer.ejs', 'utf-8');
 const indexTemplate = fs.readFileSync(PAGE_TEMPLATES_DIR + 'index.ejs', 'utf-8');
 
-function buildIndexPage(lang) {
+function buildIndexPage(lang, isRoot) {
     const pageData = {
         ...metadata[lang],
         metaTags: ejs.render(metaTags, {
             ...metadata[lang],
-            openGraphImageLink: metadata.openGraphImageLink, 
+            openGraphImageLink: metadata.openGraphImageLink,
             openGraphType: metadata.openGraphType,
-            pageName: metadata.pageName
+            pageName: metadata.pageName,
+            isRoot: isRoot
         }),
         internalCSS: internalCSS,
         langToggle: ejs.render(langToggleTemplate, {
@@ -84,16 +85,16 @@ function buildIndexPage(lang) {
             githubLink: GITHUB_ROOT
         })
     }
-    fs.writeFileSync(
-        PUBLIC_DIR + lang + '/index.html',
-        ejs.render(indexTemplate, pageData),
-        'utf-8'
-    );
+    const outPath = isRoot ?
+        PUBLIC_DIR + 'index.html' :
+        PUBLIC_DIR + lang + '/index.html';
+    fs.writeFileSync(outPath, ejs.render(indexTemplate, pageData), 'utf-8');
 }
 
 module.exports = {
     buildIndexPages() {
         buildIndexPage('en');
         buildIndexPage('de');
+        buildIndexPage('de', true);
     }
 }
