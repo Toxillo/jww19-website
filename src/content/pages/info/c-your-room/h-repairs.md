@@ -9,6 +9,10 @@ As of January 2023 you have to request repairs to your room at:
 3. A new window should open. You need to select your current contract.
 4. Click on the _damage report_ button in the bottom left of the window. A pop up should appear where you can fill in the details.
 
+### Interns of Rohde & Schwarz
+Interns of R&S don't have access to the Studentenwerks web service. You need to send an e-mail to the following adress instead:  
+✉ [studmuc@rohde-schwarz.com](mailto:studmuc@rohde-schwarz.com)
+
 <!-- Deutsch -->
 ## Reparatur
 Ab Januar 2023 müsst ihr Schadensmeldungen online auf der folgenden Seite einhändigen:  
@@ -19,3 +23,7 @@ Ab Januar 2023 müsst ihr Schadensmeldungen online auf der folgenden Seite einh�
 2. Die Rubrik _Verträge_ am rechen Rand anclicken.
 3. Eine neue Seite sollte geöffnet werden. Dort müsst ihr euren aktuellen Vertrag anclicken.
 4. Ihr müsst den Button _Schadensmeldung_ unten links anclicken. Ein Pop-Up in dem ihr den Schaden melden könnt, sollte erscheinen.
+
+### Praktikanten von Rohde & Schwarz
+Praktikanten von R&S haben keinen Zugriff auf den oben-genannten Webservice vom Studentenwerk. Ihr könnt stattdessen eine E-Mail an die folgende Adresse schicken:  
+✉ [studmuc@rohde-schwarz.com](mailto:studmuc@rohde-schwarz.com)
