@@ -10,6 +10,6 @@ The Studentenwerk also created [a page with tips for moving in](https://www.stud
 ## Einzug
 Unter den Unterlagen, die ihr beim Einzug erhaltet, befindet sich ein Formular in dem alle Mängel am Zimmer und dessen Einrichtung eingetragen werden müssen.
 
-Füllt diesen sorgfältig aus und notiert alles. Man kann dort auch ankreuzen, dass der Mangel ausgebessert werden soll. Das passiert nur, wenn der Mangel wirklich schlimm ist (d.h. ein dreckiger Duschvorhang wird z.B. nicht vom Hausmeister ausgetauscht, auch wenn ihr es ankreuzt).
+Füllt diesen sorgfältig aus und notiert alles. Man kann dort auch ankreuzen, dass der Mangel ausgebessert werden soll. Das passiert nur, wenn der Mangel wirklich schlimm ist (d.h. ein dreckiger Duschvorhang wird z.B. nicht vom Hausmeisterin ausgetauscht, auch wenn ihr es ankreuzt).
 
 Außerdem hat das Studentenwerk [eine Seite mit Tipps für den Einzung](https://www.studentenwerk-muenchen.de/wohnen/tipps-fuer-den-einzug/) verfasst.

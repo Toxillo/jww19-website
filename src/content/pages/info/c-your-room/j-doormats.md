@@ -4,4 +4,4 @@ Doormats in the hallway are considered a fire hazard and are not allowed. If the
 
 <!-- Deutsch -->
 ## Fußmatten
-Aus Feuerschutzgründen dürfen vor den Zimmern keine Fußmatten liegen. Wenn eine vor dem Zimmer liegt, wird sie vom Hausmeister entfernt und kann bei diesem wieder abgeholt werden.
+Aus Feuerschutzgründen dürfen vor den Zimmern keine Fußmatten liegen. Wenn eine vor dem Zimmer liegt, wird sie vom Hausmeisterin entfernt und kann bei diesem wieder abgeholt werden.
