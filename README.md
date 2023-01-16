@@ -1,5 +1,7 @@
 # Website of the Josef-Wirth-Weg 19 dorm
 
+Live at [jww19.de](https://jww19.de/en/index.html)
+
 ## Updating Content
 Everything inside of `src/content` is considered the content of the web page. The idea is that you do not need to understand the rest of the project if you only want to fix a mistake or add content to the website. You can simply go ahead and edit the markdown files.
 
