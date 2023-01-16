@@ -1,7 +1,7 @@
 <!-- English -->
 # Upcoming Events
-No upcoming events.
+Always check the main entrance for upcoming events. We only post important events on this website.
 
 <!-- Deutsch -->
 # Veranstaltungen
-Es sind derzeit keine Veranstaltungen geplant.
+Im Eingangsbereich findet ihr mehr Infos zu geplanten Veranstaltungen. Auf dieser Website werden nur wichtige Veranstaltungen angezeigt.
