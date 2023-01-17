@@ -1,3 +1,9 @@
 User-agent: *
 Disallow: /img/events/
+Disallow: /impressum
+Disallow: /impressum/
+Disallow: /impressum.html
+Disallow: /datenschutz.html
+Disallow: /datenschutz
+Disallow: /datenschutz/
 Sitemap: http://jww19.de/sitemap.xml
