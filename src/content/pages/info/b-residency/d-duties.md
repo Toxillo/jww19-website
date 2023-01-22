@@ -1,7 +1,10 @@
 <!-- English -->
 ## Duties
 ### Upload Certifcate of Enrollment
-As a resident, you are required to submit a valid certificate of enrollment [here](https://ipack.studentenwerk-muenchen.de/ipack3/index.html?language=en#maintenance) every semester. You usually need to upload your certificate by the middle of November and for the summer semester by the middle of May. If you don't submit your certificate before the deadline, you will be sent a notice of termination!
+As a resident, you are required to submit a valid certificate of enrollment every semester to:  
+[https://ipack.studentenwerk-muenchen.de/ipack3/index.html](https://ipack.studentenwerk-muenchen.de/ipack3/index.html?language=en#maintenance)
+
+You usually need to upload your certificate by the middle of November for the winter semester and by the middle of May for the summer semester. If you don't submit your certificate before the deadline, you will be sent a notice of termination!
 
 Your login details should have been provided to you by the Studentenwerk.
 
@@ -11,7 +14,10 @@ At the start of every semester we have a [general assembly](#a-assembly). It's d
 <!-- Deutsch -->
 ## Vertragliches / Pflichten
 ### Immatrikulationsbescheinigung hochladen
-Als Bewohner seid ihr verpflichtet, jedes Semester eine aktuelle Immatrikulationsbescheinigung [hier](https://ipack.studentenwerk-muenchen.de/ipack3/index.html?language=de#maintenance) hochzuladen. Für das Wintersemester müsst ihr sie im Normalfall bis Mitte November einreichen und für das Sommersemester bis Mitte Mai. Bitte beachtet diese beiden Termine. Wenn die Bescheinigung nicht vorliegt, wird euch eine Kündigung zugeschickt!
+Als Bewohner seid ihr verpflichtet, jedes Semester eine aktuelle Immatrikulationsbescheinigung auf der folgenden Webseite hochzuladen:  
+[https://ipack.studentenwerk-muenchen.de/ipack3/index.html](https://ipack.studentenwerk-muenchen.de/ipack3/index.html?language=de#maintenance)
+
+Für das Wintersemester müsst ihr sie im Normalfall bis Mitte November einreichen und für das Sommersemester bis Mitte Mai. Bitte beachtet diese beiden Termine. Wenn die Bescheinigung nicht vorliegt, wird euch eine Kündigung zugeschickt!
 
 Deine Logindetails solltest du vom Studentenwerk zugeschickt bekommen haben.
 

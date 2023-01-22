@@ -2,11 +2,11 @@
 ## Extending Your Residency
 Your period of residence in the dormitory is limited. You can find out when you have to move out in your tenancy agreement.
 
-However, there are several ways to extend your stay in the dorm. The best way (in our unbiased opinion 😊) is to become part of the [student self-administration](#b-self-admin) and earn extra semesters. House speakers get a 2-semester extension and tutors get a 1-semester extension for their services, for example.
+However, there are several ways to extend your stay in the dorm. The best way (in our unbiased opinion 😊) is to become part of the [student self-administration](#b-self-admin) and earn extra semesters. House speakers can apply for a 2-semester extension and tutors can apply for a 1-semester extension, for example.
 
 You may also request to extend your stay if you are in your final examination or if you have found yourself in an exceptional situation (e.g. pregnancy, serious illness).
 
-You find more details on [this page](https://www.studentenwerk-muenchen.de/en/accommodation/guidelines-and-application-forms/extending-your-residency/) created by the Studentewerk.
+You can find more details on [this page](https://www.studentenwerk-muenchen.de/en/accommodation/guidelines-and-application-forms/extending-your-residency/) created by the Studentewerk.
 
 <!-- Deutsch -->
 ## Wohnzeitverlängerung

@@ -12,7 +12,7 @@ If your warm water and heating doesn't work, please check with other residents o
 Otherwise, if multiple people are experiencing warm water and heating outages, please [contact someone](/en/index.html#contact) from the student self-administration.
 
 ### Outage on Weekends or Public Holidays
-If there is a warm water or heating outage on a weekend or public holiday, please call the phone number for technical emergencies provided below and let the student self-adminstration as well other residents of the dorm know.
+If there is a warm water or heating outage on a **weekend or public holiday**, please call the phone number for technical emergencies provided below and let the student self-adminstration as well other residents of the dorm know that you did so.
 
 Technical Emergency Service: 📞 [+49 172 867 1128](tel:+491728671128)
 
@@ -30,6 +30,6 @@ Falls du einen Warmwasser und Heizungsausfall bemerken solltest, bitte erkunde d
 Falls du feststellst, dass mehrere Mitbewohner das selbe Problem haben, bitte [schreib der studentischen Selbstverwaltung](/de/index.html#contact).
 
 ### Ausfall an Wochenende und Feiertagen
-Falls das Warmwasser oder die Heizung an Wochenenden oder einem Feiertag ausfallen sollte, dann ruf bitte den technischen Notfalldienst und gib der studentischen Selbstverwaltung sowie deinen Mitbewohnern Bescheid.
+Falls das Warmwasser oder die Heizung an **Wochenenden oder einem Feiertag** ausfallen sollte, dann ruf bitte den technischen Notfalldienst und gib der studentischen Selbstverwaltung sowie deinen Mitbewohnern Bescheid.
 
 Technischer Notfalldienst: 📞 [+49 172 867 1128](tel:+491728671128)
