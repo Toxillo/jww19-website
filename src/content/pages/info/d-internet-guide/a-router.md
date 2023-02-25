@@ -4,7 +4,7 @@
 You will need:
 - 1 Ethernet cable
 - A router with an ethernet WAN port
-- The list of static IP addresses as well as the default gateway provided to you by the Studentenwerk
+- The list of static IP addresses as well as the default gateway provided to you by the Studierendenwerk
 - A laptop or PC to connect to the router. If it doesn't have Wi-Fi, you can connect to one of the LAN-ports using an ethernet cable.
 
 In this guide we will be using a *TP-Link TL-WR841N* router (displayed below) to illustrate the steps.
@@ -26,7 +26,7 @@ There is some useful information on the back of the router which you will need t
 
    ![router login dialog](/img/info/internet/router-login-dialog.webp)
 5. You need to log in to your router's setting page using it's **default username and password**. In our case the username is `admin` and the password is `admin`.
-6. Once you've logged in, you need to make your router use a static IP address and set it to one of the IP addresses provided to you by the Studentenwerk. In our case this means navigating to `Network > WAN`, choosing the the connection type `Static IP` and setting the `IP address` as well as the `Default Gateway` to the addresses provided by the Studentenwerk.
+6. Once you've logged in, you need to make your router use a static IP address and set it to one of the IP addresses provided to you by the Studierendenwerk. In our case this means navigating to `Network > WAN`, choosing the the connection type `Static IP` and setting the `IP address` as well as the `Default Gateway` to the addresses provided by the Studierendenwerk.
    
    ![router settings page step 1](/img/info/internet/router-ui-1.webp)
 7. It's highly recommended to change the name of your Wi-Fi network. For our router, we need to navigate to `Wireless > Wireless Settings` to change it.
@@ -44,7 +44,7 @@ Congrats 🎉, you should now have a working internet connection. If it's not th
 Du benötigst: 
 - 1 Ethernet-Kabel
 - Einen Router mit einem Ethernet WAN-Port
-- Die Liste von statischen IP Adressen, sowie den Default Gateway vom Studentenwerk
+- Die Liste von statischen IP Adressen, sowie den Default Gateway vom Studierendenwerk
 - Einen Laptop oder PC um dich mit dem Router zu verbinden. Falls dein Laptop/PC kein WLAN haben sollte, kannst du ihn über ein Ethernet-Kabel mit einem der LAN-Ports von deinem Router verbinden.
 
 In dieser Anleitung werden wir beispielhaft den *TP-Link TL-WR841N* Router verwenden: 
@@ -67,7 +67,7 @@ Auf der Rückseite der meisten Router findest du wichtige Informationen. Wir hab
    ![Router Logindialog](/img/info/internet/router-login-dialog.webp)
 5. Nun musst du dich mit den **Standard-Logindaten** deines Routers einloggen. In unserem Fall ist der Benutzername `admin` und das Passwort ebenfalls `admin`.  
 
-6. Nachdem du dich eingelogged hast, musst du deinen Router konfigurieren eine statische IP Adresse zu benutzen und sie dann auf einer der Adressen vom Studentenwerk setzen. In unserem Fall müssen wir zu `Network > WAN` navigieren, den _connection type_ `Static IP` wählen und die `IP address`, sowie die `Default Gateway` Felder auf einen der Werte vom Studentenwerk setzen.
+6. Nachdem du dich eingelogged hast, musst du deinen Router konfigurieren eine statische IP Adresse zu benutzen und sie dann auf einer der Adressen vom Studierendenwerk setzen. In unserem Fall müssen wir zu `Network > WAN` navigieren, den _connection type_ `Static IP` wählen und die `IP address`, sowie die `Default Gateway` Felder auf einen der Werte vom Studierendenwerk setzen.
    
    ![Router Schritt 1](/img/info/internet/router-ui-1.webp)
 7. Wir empfehlen stark, dass ihr den Namen eures WLAN Netzwerkes ändert. Bei unserem Router kann man das unter `Wireless > Wireless Settings` machen.

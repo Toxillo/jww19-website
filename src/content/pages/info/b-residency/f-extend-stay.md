@@ -16,4 +16,4 @@ Um die Wohnzeit zu verlängern gibt es einige Möglichkeiten, aber die beste Art
 
 Du kannst auch eine einmalige Verlängerung deiner Wohnzeit für deine Abschlussprüfung beantragen oder wenn du dich in einer besonderen Ausnahmesituation befindest (z.B. Härtefall, schwere Krankheit, Schwangerschaft usw.).
 
-Mehr Details dazu gibt es auf [dieser Seite](https://www.studentenwerk-muenchen.de/wohnen/richtlinien-und-antraege/wohnzeitverlaengerung/) vom Studentenwerk.
+Mehr Details dazu gibt es auf [dieser Seite](https://www.studentenwerk-muenchen.de/wohnen/richtlinien-und-antraege/wohnzeitverlaengerung/) vom Studierendenwerk.

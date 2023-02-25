@@ -6,7 +6,7 @@ Each apartment is individually heated by floor heating which is controlled by th
 
 ### Heating Outage
 
-If your warm water and heating doesn't work, please check with other residents of the dorm if they are experiencing the same issue. If it's only your room, please write to the Studentenwerk about the issue:  
+If your warm water and heating doesn't work, please check with other residents of the dorm if they are experiencing the same issue. If it's only your room, please write to the Studierendenwerk about the issue:  
 [wohnen@stwm.de](mailto:wohnen@stwm.de).
 
 Otherwise, if multiple people are experiencing warm water and heating outages, please [contact someone](/en/index.html#contact) from the student self-administration.
@@ -24,7 +24,7 @@ Jedes Apartment hat eine Fußbodenheizung, die durch die Außentemperatur sowie 
 
 ### Heizungsausfall
 
-Falls du einen Warmwasser und Heizungsausfall bemerken solltest, bitte erkunde dich bei anderen Mitbewohnern ob es bei denen ebenfalls der Fall ist. Falls es nur dein Zimmer ist, bitte schreib dem Studentenwerk:  
+Falls du einen Warmwasser und Heizungsausfall bemerken solltest, bitte erkunde dich bei anderen Mitbewohnern ob es bei denen ebenfalls der Fall ist. Falls es nur dein Zimmer ist, bitte schreib dem Studierendenwerk:  
 [wohnen@stwm.de](mailto:wohnen@stwm.de)
 
 Falls du feststellst, dass mehrere Mitbewohner das selbe Problem haben, bitte [schreib der studentischen Selbstverwaltung](/de/index.html#contact).

@@ -4,7 +4,7 @@ You will need:
 
 - 1 Ethernet cable
 - A laptop or PC with an ethernet port
-- The list of static IP addresses, the default gateway as well as the DNS Server address provided to you by the Studentenwerk
+- The list of static IP addresses, the default gateway as well as the DNS Server address provided to you by the Studierendenwerk
 
 This guide assumes that you are using Windows 10. If you are using another operating system and are struggling to connect to the internet, we would urge you to rather [set up a router](#a-router) and connect through it instead. If this is not an option for some reason, please [contact the network admins](/en/index.html#contact).
 
@@ -18,7 +18,7 @@ This guide assumes that you are using Windows 10. If you are using another opera
 6. A new window showing the status of the ethernet connection should open. You should see _No internet access_ under _IPv4 connectivity_. Now click on _Properties_.
 7. Another window with a list should open. You need to scroll through the list until you see _Internet Protocol Version 4 (TCP/IPv4)_. Click on it and then on the _Properties_ button at the bottom right.
 8. Choose the _Use the following IP address_ option.
-9. Now enter the IP address, subnet mask, default gateway and the preferred DNS server that was given to you by the Studentenwerk.
+9. Now enter the IP address, subnet mask, default gateway and the preferred DNS server that was given to you by the Studierendenwerk.
 
 You should have a working internet connection on that specific laptop/PC now. If the guid didn't work or you need help, please [contact the network admins](/en/index.html#contact).
 
@@ -28,7 +28,7 @@ You should have a working internet connection on that specific laptop/PC now. If
 Du benötigst:
 - 1 Ethernet-Kabel 
 - Einen Laptop oder einen PC mit einem Ethernet-Port
-- Die Liste von statischen IP-Adressen, den Default Gateway, sowie die DNS Serveradresse die du vom Studentenwerk erhalten hast
+- Die Liste von statischen IP-Adressen, den Default Gateway, sowie die DNS Serveradresse die du vom Studierendenwerk erhalten hast
 
 Diese Anleitung geht davon aus, dass dein Laptop/PC Windows 10 benutzt. Falls du ein anderes Betriebsystem benutzen solltest und Probleme hast für es Internet einzurichten, wollen wir dir noch mal nahe legen lieber einen [Router einzurichten](#a-router) und den Laptop/PC darüber ans Internet zu koppeln. Falls das aus irgendeinem Grund keine Möglichkeit ist, dann schreib bitte [einen Netzwerkadmin an](/de/index.html#contact).
 
@@ -42,6 +42,6 @@ Diese Anleitung geht davon aus, dass dein Laptop/PC Windows 10 benutzt. Falls du
 6. Ein neues Fenster sollte aufkommen, dass den Status der Ethernetverbindung anzeigt und du solltest unter _IPv4-Konnektivität_ _Kein Internetzugriff_ stehen sehen. Click auf _Eigenschaften_.
 7. Ein neues Fenster sollte geöffnet werden. Du musst in der Liste scrollen, bis du _Internetprotokoll Version 4 (TCP/IPv4)_ siehtst. Click dadrauf und dann auf den _Eigneschaften_-Button rechts unten.
 8. Wähl die _Folgende IP-Adresse verwenden_ Option aus.
-9. Zuletzt musst du die IP Adresse, die Subnetzmaske, den Default Gateway sowie den bevorzugten DNS Server auf die Werte setzen, die das Studentenwerk dir gesendet hat.
+9. Zuletzt musst du die IP Adresse, die Subnetzmaske, den Default Gateway sowie den bevorzugten DNS Server auf die Werte setzen, die das Studierendenwerk dir gesendet hat.
 
 Herzlichen Glückwunsch 🎉, du solltest jetzt eine funktionierende Internetverbindung auf deinem Laptop/PC haben. Falls es nicht geklappt hat, [schreib bitte einen Netzwerkadmin an](/de/index.html#contact).

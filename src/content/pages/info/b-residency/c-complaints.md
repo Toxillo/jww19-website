@@ -7,7 +7,7 @@ If you are ever disturbed by the noise made by a neighbour, please **talk to the
 
 If this doesn't work and your neighbour is still making noise, please [contact a person](/en/index.html#contact) from the student self-administration to see if they can mend the situation. 
 
-In some rare cases, not even this will help though. If your neighbour keeps making noise eventhough you have asked them to stop and a person from the student self-administration has talked to them, you should write to the Studentenwerk so that they can assist you in improving the situation:  
+In some rare cases, not even this will help though. If your neighbour keeps making noise eventhough you have asked them to stop and a person from the student self-administration has talked to them, you should write to the Studierendenwerk so that they can assist you in improving the situation:  
 ✉ [wohnen@stwm.de](mailto:wohnen@stwm.de)
 
 ### A Party is Too Loud
@@ -22,7 +22,7 @@ Falls du dich durch den Lärm eines Nachbahrs gestört fühlst, bitte **rede zue
 
 Falls das zu keiner Besserung führen sollte und die Person weiterhin für Lärm sorgt, [schreibt bitte](/de/index.html#contact) jemanden von der studentischen Selbstverwaltung, sodass sie versuchen können mit der Person zu reden.
 
-In manchen, seltenen Fällen führt selbst das zu keiner Besserung. Dann solltet du das Studentenwerk anschreiben, damit sie euch weiterhelfen können:  
+In manchen, seltenen Fällen führt selbst das zu keiner Besserung. Dann solltet du das Studierendenwerk anschreiben, damit sie euch weiterhelfen können:  
 ✉ [wohnen@stwm.de](mailto:wohnen@stwm.de)
 
 ### Eine Party ist zu laut
