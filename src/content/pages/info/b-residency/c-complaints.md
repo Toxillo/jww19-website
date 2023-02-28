@@ -1,6 +1,6 @@
 <!-- English -->
 ## Noise Complaints
-Making noise should be avoided between 12:00 and 14:00 as well as 22:00 and 07:00. On Sundays and public holidays noise should be kept to a minimum during the whole day. You can read more about the noise policy of our dorm in [the brochure](https://www.studentenwerk-muenchen.de/fileadmin/studentenwerk-muenchen/bereiche/wohnen/wohnheime/Broschueren/Josef-Wirth-Weg_Brosch%C3%BCre_englisch.pdf#page=11).
+Making noise should be avoided between 12:00 and 14:00 as well as 22:00 and 07:00. On Sundays and public holidays noise should be kept to a minimum during the whole day. You can read more about the noise policy of our dorm in [the brochure](https://www.studierendenwerk-muenchen-oberbayern.de/fileadmin/studierendenwerk-muenchen-oberbayern/bereiche/wohnen/wohnheime/Broschueren/Josef-Wirth-Weg_Brosch%C3%BCre_englisch.pdf#page=11).
 
 ### A Neighbour is Too Loud
 If you are ever disturbed by the noise made by a neighbour, please **talk to them first** and ask them to be quiet. From our experience, people aren't aware that they are disturbing someone else and will happily respect their neighbours and stay quiet.
@@ -15,7 +15,7 @@ If you are disturbed by the noise of a party in the Wohnheimtreff, please [call 
 
 <!-- Deutsch -->
 ## Ruhestörung und Beschwerden
-Grundsätzlich gilt es Lärm im Wohnheim zwischen 12:00 und 14:00 und von 22:00 bis 7:00 Uhr zu vermeiden. An Sonn- und Feiertagen gilt die Auflage, ganztägig keinen Lärm zu verursachen. Mehr dazu könnt ihr in [der Brochüre](https://www.studentenwerk-muenchen.de/fileadmin/studentenwerk-muenchen/bereiche/wohnen/wohnheime/Broschueren/Josef-Wirth-Weg_Brosch%C3%BCre_deutsch.pdf#page=10) lesen.
+Grundsätzlich gilt es Lärm im Wohnheim zwischen 12:00 und 14:00 und von 22:00 bis 7:00 Uhr zu vermeiden. An Sonn- und Feiertagen gilt die Auflage, ganztägig keinen Lärm zu verursachen. Mehr dazu könnt ihr in [der Brochüre](https://www.studierendenwerk-muenchen-oberbayern.de/fileadmin/studierendenwerk-muenchen-oberbayern/bereiche/wohnen/wohnheime/Broschueren/Josef-Wirth-Weg_Brosch%C3%BCre_deutsch.pdf#page=10) lesen.
 
 ### Ein Nachbahr ist zu laut
 Falls du dich durch den Lärm eines Nachbahrs gestört fühlst, bitte **rede zuerst mit ihnen** und bitte sie um Ruhe. Aus unserer Erfahrung ist es Mitbewohnern meistens gar nicht bewusst, dass sie ihre Nachbahrn stören und werden eure Anfrage respektieren.

@@ -11,7 +11,7 @@ You can contact them using this e-mail address:
 # Bist du auf Wohnungssuche?
 Das Wohnheim ist Teil des Studierendenwerk Münchens und somit werden alle Bewerbungen zentral verwaltet. Falls du dich für einen Wohnplatz bewerben willst, musst du das über den [Bewerbungsprozess des Studierendenwerk Münchens](https://www.studentenwerk-muenchen.de/wohnen/bewerbung/) machen.
 
-Das Studentwerk ist auch mit folgender E-mailadresse zu erreichen:  
+Das Studierendenwerk ist auch mit folgender E-mailadresse zu erreichen:  
 ✉ [wohnen@stwm.de](mailto:wohnen@stwm.de).
 
 **Bitte nicht die studentische Selbstverwaltung wegen Wohnplätzen anschreiben**, da wir nicht dafür verantwortlich sind.

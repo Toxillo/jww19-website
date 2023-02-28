@@ -1,6 +1,6 @@
 <!-- English -->
 # Contact Us
-You can find our contact details in the main entrance.
+You can find our contact details in the main entrance or use the email addresses below.
 
 ### WhatsApp Community
 The student self-administration as well as residents of the dorm are most active on the WhatsApp community of the dorm. You can join the community via the QR code in the main entrance.
