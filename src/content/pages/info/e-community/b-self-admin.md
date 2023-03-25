@@ -5,12 +5,12 @@ If you have ever felt the need to complain about life in our dorm and are passio
 We've outlined the traditional roles of the student self-administration below, but if you're an active member of the community, you are always welcome to join us anyway, regardless of whether you have an elected role or not.
 
 ### House Speaker
-We have 2 house speakers for our dorm and they are mainly responsible for communicating between the residents of the dorm and the Studierendenwerk. We prefer the house speaker to be someone who has already been part of the student self-administration, since they need to understand quite a bit about how the dorm works. You can read more about their role [here](https://www.studentenwerk-muenchen.de/en/accommodation/guidelines-and-application-forms/translate-to-english-haussprecher/). House speakers get elected for a one year term and are then eligible for extending their residency by 2 semesters. 
+We have 2 house speakers for our dorm and they are mainly responsible for communicating between the residents of the dorm and the Studierendenwerk. We prefer the house speaker to be someone who has already been part of the student self-administration, since they need to understand quite a bit about how the dorm works. You can read more about their role [here](https://www.studierendenwerk-muenchen-oberbayern.de/en/accommodation/policies-and-application-forms/translate-to-english-haussprecher/). House speakers get elected for a one year term and are then eligible for extending their residency by 2 semesters. 
 
 Our current house speakers' terms end after this semester (winter semester of 2022) and the summer semester of 2023.
 
 ### Tutor
-We have 2 tutors that are responsible for organizing events and fostering the social life of our dorm. We used to only have 1 tutor position, but we've split the position in to two, sothat it's easier to plan more events. You can read more about their role [here](https://www.studentenwerk-muenchen.de/en/culture/resident-tutor-programme/). Tutors get elected for a one year term and are then eligible for extending their residency by 1 semester. 
+We have 2 tutors that are responsible for organizing events and fostering the social life of our dorm. We used to only have 1 tutor position, but we've split the position in to two, sothat it's easier to plan more events. You can read more about their role [here](https://www.studierendenwerk-muenchen-oberbayern.de/en/culture/resident-tutor-programme/). Tutors get elected for a one year term and are then eligible for extending their residency by 1 semester. 
 
 Both our current tutors' terms end after the summer semester of 2023.
 
@@ -31,12 +31,12 @@ Falls du irgendwelche Beschwerden oder Verbesserungvorschläge für unser Wohnhe
 Wir stellen die vorgeschriebenen Rollen der studentischen Selbstverwaltung unten vor, aber falls du ein aktives Mitglied der Community bist, nehmen wir dich gerne in studentische Selbstverwaltung auf - egal ob ihr gewählt wurdet oder nicht.
 
 ### Haussprecher
-Wir haben 2 Haussprecher für unser Wohnheim dessen Hauptaufgabe es ist zwischen Mitbewohnern und dem Studierendenwerk zu kommunizieren. Wir bevorzugen es den Haussprecherposten mit einer Person zu besetzen, die bereits Teil der studentischen Selbstverwaltung war, weil man einiges über die Funktionsweise des Wohnheims verstehen muss. [Hier](https://www.studentenwerk-muenchen.de/wohnen/richtlinien-und-antraege/haussprecher/) gibt es mehr Infos zu der Rolle des Haussprechers. Haussprecher werden außerdem auf eine 1-jährige Amtszeit gewählt und können ihre Wohnzeit danach um 2 Semester verlängern.
+Wir haben 2 Haussprecher für unser Wohnheim dessen Hauptaufgabe es ist zwischen Mitbewohnern und dem Studierendenwerk zu kommunizieren. Wir bevorzugen es den Haussprecherposten mit einer Person zu besetzen, die bereits Teil der studentischen Selbstverwaltung war, weil man einiges über die Funktionsweise des Wohnheims verstehen muss. [Hier](https://www.studierendenwerk-muenchen-oberbayern.de/wohnen/richtlinien-und-antraege/haussprecher/) gibt es mehr Infos zu der Rolle des Haussprechers. Haussprecher werden außerdem auf eine 1-jährige Amtszeit gewählt und können ihre Wohnzeit danach um 2 Semester verlängern.
 
 Die Amtszeiten unserer derzeitigen Haussprecher enden jeweils nach dem Wintersemester 2022 und dem Sommersemester 2023.
 
 ### Tutor
-Wir haben 2 Tutoren des Hauptaufgabe es ist Veranstaltungen zu organisieren und das soziale Leben in unserem Wohnheim zu fördern. Wir hatten vor einigen Jahren nur einen Tutor, aber haben dessen Rolle auf 2 Leute verteilt, damit wir mehr Veranstaltungen planen können. Ihr könnt [hier](https://www.studentenwerk-muenchen.de/kultur/tutorenprogramm/) mehr über die Aufgaben von Tutoren lesen. Tutoren werden auf eine 1-jährige Amtszeit gewählt und können ihre Wohnzeit danach um 1 Semester verlängern.
+Wir haben 2 Tutoren des Hauptaufgabe es ist Veranstaltungen zu organisieren und das soziale Leben in unserem Wohnheim zu fördern. Wir hatten vor einigen Jahren nur einen Tutor, aber haben dessen Rolle auf 2 Leute verteilt, damit wir mehr Veranstaltungen planen können. Ihr könnt [hier](https://www.studierendenwerk-muenchen-oberbayern.de/kultur/tutorenprogramm/) mehr über die Aufgaben von Tutoren lesen. Tutoren werden auf eine 1-jährige Amtszeit gewählt und können ihre Wohnzeit danach um 1 Semester verlängern.
 
 Die Amtszeit beider unsere derzeitigen Tutoren endet nach dem Sommersemester 2023.
 

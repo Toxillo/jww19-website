@@ -2,7 +2,7 @@
 # Internet Setup Guide
 Your room is assigned several static IP adresses on the [MWN](https://www.lrz.de/services/netz/) by the LRZ. You should have received these adresses by the Studierendenwerk. Theoretically you can hook up any device with a network card and an ethernet port (like a router, laptop, desktop PC etc.) to the ethernet port connected to the MWN in your room. 
 
-The ethernet port is under the desk in your room and is labeled _Datenanschluss_ in the image from 📁[the brochure](https://www.studentenwerk-muenchen.de/fileadmin/studentenwerk-muenchen/bereiche/wohnen/wohnheime/Broschueren/Josef-Wirth-Weg_Brosch%C3%BCre_englisch.pdf) below:
+The ethernet port is under the desk in your room and is labeled _Datenanschluss_ in the image from 📁[the brochure](https://www.studierendenwerk-muenchen-oberbayern.de/fileadmin/studierendenwerk-muenchen-oberbayern/bereiche/wohnen/wohnheime/Broschueren/Josef-Wirth-Weg_Brosch%C3%BCre_englisch.pdf) below:
 
 ![ethernet port](/img/info/internet/internet-access.webp)
 
@@ -14,7 +14,7 @@ If you have any problems with or questions about setting up your internet, pleas
 # Internet einrichten
 Deinem Zimmer werden mehrere statische IPs für das [MWN](https://www.lrz.de/services/netz/) vom LRZ zugegeordnet. Du solltest diese bereits vom Studierendenwerk erhalten haben. Im Prinzip, kannst du jede Art Gerät mit einer Netzwerkkarte und einem Ethernet-Port (wie z.B. einen Router, Laptop, Desktop PC usw.) mit dem Ethernet-Port in deinem Zimmer verbinden und einrichten.
 
-Das Ethernet-Port befindet sich unter dem Schreibtisch in deinem Zimmer und ist in dem Bild aus [der Brochure](https://www.studentenwerk-muenchen.de/fileadmin/studentenwerk-muenchen/bereiche/wohnen/wohnheime/Broschueren/Josef-Wirth-Weg_Brosch%C3%BCre_deutsch.pdf) mit _Datenanschluss_ gekennzeichnet:
+Das Ethernet-Port befindet sich unter dem Schreibtisch in deinem Zimmer und ist in dem Bild aus [der Brochure](https://www.studierendenwerk-muenchen-oberbayern.de/fileadmin/studierendenwerk-muenchen-oberbayern/bereiche/wohnen/wohnheime/Broschueren/Josef-Wirth-Weg_Brosch%C3%BCre_englisch.pdf) mit _Datenanschluss_ gekennzeichnet:
 
 ![ethernet port](/img/info/internet/internet-access.webp)
 

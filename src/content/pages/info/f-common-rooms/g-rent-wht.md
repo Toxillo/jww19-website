@@ -2,9 +2,9 @@
 ## Renting the Wohnheimtreff
 You're welcome to rent the WHT on Fridays and Saturdays for birthday parties, private gatherings etc. It doesn't cost anything, but we take a deposit. We've outlined the steps for renting the WHT below:
 
-1. Please read 📁[this guideline](https://www.studentenwerk-muenchen.de/fileadmin/studentenwerk-muenchen/bereiche/wohnen/wohnheime/00_dateien/Veranstaltungsrichtlinien.pdf) by the Studierendenwerk.
+1. Please read 📁[this guideline](https://www.studierendenwerk-muenchen-oberbayern.de/fileadmin/studierendenwerk-muenchen-oberbayern/bereiche/wohnen/wohnheime/00_dateien/Veranstaltungsrichtlinien.pdf) by the Studierendenwerk.
 2. Decide on a date, where the WHT is still free, using [this Google Calendar](https://calendar.google.com/calendar/embed?src=554ee494a251fb621d016428bac90fa9050f560d8b1cfccabe4a56220d029d1b%40group.calendar.google.com). Please remember that private gatherings are only allowed on Fridays and Saturdays as per the guideline. A person from the student self-administration also needs to be able to hand over the keys on the chosen date.
-3. Fill out 📁[this form](https://www.studentenwerk-muenchen.de/fileadmin/studentenwerk-muenchen/bereiche/wohnen/wohnheime/00_dateien/Anmeldung_private_Veranstaltung.pdf) and please note that events are officially **not allowed to continue past 24:00** as per the guideline.
+3. Fill out 📁[this form](https://www.studierendenwerk-muenchen-oberbayern.de/fileadmin/studierendenwerk-muenchen-oberbayern/bereiche/wohnen/wohnheime/00_dateien/Anmeldung_private_Veranstaltung.pdf) and please note that events are officially **not allowed to continue past 24:00** as per the guideline.
    
    Once you have filled out the form, you need to get it signed by a house speaker or a tutor and have to then send it to the Studierendenwerk **at least 2 weeks in advance**:  
    ✉ [wohnen@stwm.de](mailto:wohnen@stwm.de)
@@ -21,9 +21,9 @@ Before your gathering, we'll clear out the small fridge behind the bar so that y
 ## Wohnheimtreff mieten
 Du kannst das WHT gerne Freitags und Samstags für persönliche Veranstaltungen mieten. Es kostet nichts, aber wir verlangen eine Kaution für die Vermietung. Im folgenden haben wir die Schritte zur Mietung notiert:
 
-1. Bitte lies dir 📁[diese Richtlinie](https://www.studentenwerk-muenchen.de/fileadmin/studentenwerk-muenchen/bereiche/wohnen/wohnheime/00_dateien/Veranstaltungsrichtlinien.pdf) des Studierendenwerks zu privaten Veranstaltungen durch.
+1. Bitte lies dir 📁[diese Richtlinie](https://www.studierendenwerk-muenchen-oberbayern.de/fileadmin/studierendenwerk-muenchen-oberbayern/bereiche/wohnen/wohnheime/00_dateien/Veranstaltungsrichtlinien.pdf) des Studierendenwerks zu privaten Veranstaltungen durch.
 2. Suche dir ein passendes Datum aus [diesem Google Calendar](https://calendar.google.com/calendar/embed?src=554ee494a251fb621d016428bac90fa9050f560d8b1cfccabe4a56220d029d1b%40group.calendar.google.com&ctz=Europe%2FBerlin) aus, an dem das WHT noch nicht benutzt wird/gebucht ist. Bitte beachte dabei, dass das WHT nur Freitags und Samstags für private Veranstaltungen vermietet werden darf. Eine Person der studentischen Selbstverwaltung muss ebenfalls an dem Tag Zeit haben die Schlüsselüberabe zu machen.
-3. Du musst 📁[dieses Formular](https://www.studentenwerk-muenchen.de/fileadmin/studentenwerk-muenchen/bereiche/wohnen/wohnheime/00_dateien/Anmeldung_private_Veranstaltung.pdf) ausfüllen und von einem Tutor oder Haussprecher unterschreiben lassen. Bitte beachte dabei, dass private Veranstaltungen **nicht später als 24:00 gehen** dürfen.
+3. Du musst 📁[dieses Formular](https://www.studierendenwerk-muenchen-oberbayern.de/fileadmin/studierendenwerk-muenchen-oberbayern/bereiche/wohnen/wohnheime/00_dateien/Anmeldung_private_Veranstaltung.pdf) ausfüllen und von einem Tutor oder Haussprecher unterschreiben lassen. Bitte beachte dabei, dass private Veranstaltungen **nicht später als 24:00 gehen** dürfen.
    
    Das ausgefüllte Formular muss dann **mindestens 2 Wochen bevor dem Datum der Veranstaltung** an das Studierendenwerk geschickt werden:  
    ✉ [wohnen@stwm.de](mailto:wohnen@stwm.de)

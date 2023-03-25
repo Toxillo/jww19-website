@@ -6,7 +6,7 @@ However, there are several ways to extend your stay in the dorm. The best way (i
 
 You may also request to extend your stay if you are in your final examination or if you have found yourself in an exceptional situation (e.g. pregnancy, serious illness).
 
-You can find more details on [this page](https://www.studentenwerk-muenchen.de/en/accommodation/guidelines-and-application-forms/extending-your-residency/) created by the Studentewerk.
+You can find more details on [this page](https://www.studierendenwerk-muenchen-oberbayern.de/en/accommodation/policies-and-application-forms/extending-your-tenancy/) created by the Studentewerk.
 
 <!-- Deutsch -->
 ## Wohnzeitverlängerung
@@ -16,4 +16,4 @@ Um die Wohnzeit zu verlängern gibt es einige Möglichkeiten, aber die beste Art
 
 Du kannst auch eine einmalige Verlängerung deiner Wohnzeit für deine Abschlussprüfung beantragen oder wenn du dich in einer besonderen Ausnahmesituation befindest (z.B. Härtefall, schwere Krankheit, Schwangerschaft usw.).
 
-Mehr Details dazu gibt es auf [dieser Seite](https://www.studentenwerk-muenchen.de/wohnen/richtlinien-und-antraege/wohnzeitverlaengerung/) vom Studierendenwerk.
+Mehr Details dazu gibt es auf [dieser Seite](https://www.studierendenwerk-muenchen-oberbayern.de/wohnen/richtlinien-und-antraege/wohnzeitverlaengerung/) vom Studierendenwerk.
