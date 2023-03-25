@@ -12,5 +12,8 @@ However, if you want to preview the changes locally, you will need to have [Node
    npm install
    ```
 2. ```shell
+   npm run build
+   ```
+3. ```shell
    npm run dev
    ```
