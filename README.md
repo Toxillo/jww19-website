@@ -16,4 +16,4 @@ However, if you want to preview the changes locally, you will need to have [Node
    ```
 3. ```shell
    npm run dev
-   ```
+

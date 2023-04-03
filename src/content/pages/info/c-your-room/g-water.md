@@ -1,9 +1,12 @@
 <!-- English -->
 ## Drinking Water
-Chlorine is added to our tap water to keep the water clean and kill harmful bacteria. **You can therefore drink tap water without concern**. 
+A couple of years ago [legionella](https://en.wikipedia.org/wiki/Legionella) were found in the bathroom of *one* resident and therefore the housekeeper still needs to occasionally take samples from the drinking water, but since then chlorine has been added to our water to kill of bacteria. **You can therefore drink tap water without concern**.
 
 If you don't like the taste of the water, you can always use a filter or purchase bottled water.
 
+
 <!-- Deutsch -->
 ## Leitungswasser
-Wie ihr sicher schon bemerkt habt, wird unserem Leitungswasser Chlor zugesetzt. An manchen Tagen ist der Chlorgeruch stärker, an manchen Tagen weniger stark. Das Chlor ist jedoch zu keiner Zeit gesundheitsschädlich. Dazu ist die Dosis zu gering. **Das Wasser kann also bedenkenlos getrunken werden**. Wer sich am Geschmack stört, muss auf Filter oder gekauftes Wasser zurückgreifen.
+Vor einigen Jahren wurden bei *einem* Studenten [Legionellen](https://de.wikipedia.org/wiki/Legionellen) gefunden und die Hausmeisterin muss deswegen gelegentlich unser Leitungswasser proben. Seit dem wird unserem Leitungswasser Chlor zugesetzt. **Das Wasser kann also bedenkenlos getrunken werden**.
+
+Wer sich am Geschmack stört, muss auf Filter oder gekauftes Wasser zurückgreifen.
