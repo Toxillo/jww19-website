@@ -3,7 +3,7 @@
 Live at [jww19.de](https://jww19.de/en/index.html)
 
 ## Editing the Website
-All of the content of our dorm's website is inside of [`src/content/pages`](https://github.com/Haussprecher-JWW19/jww19-website/tree/main/src/content/pages). Currently the entire website consists of only two pages: [`index`](https://github.com/Haussprecher-JWW19/jww19-website/tree/main/src/content/pages/index) and [`info`](https://github.com/Haussprecher-JWW19/jww19-website/tree/main/src/content/pages/index).
+All of the content of our dorm's website is inside of [`src/content/pages`](https://github.com/Haussprecher-JWW19/jww19-website/tree/main/src/content/pages). Currently the entire website consists of only two pages: [`index`](https://github.com/Haussprecher-JWW19/jww19-website/tree/main/src/content/pages/index) and [`info`](https://github.com/Haussprecher-JWW19/jww19-website/tree/main/src/content/pages/info).
 
 To edit the content for either of those pages, you can simply go ahead and edit the [Markdown](https://www.markdowntutorial.com/) file for the topic or section in question. Each Markdown file, representing a topic or section, is split into an English and a German part, which are used to render the website in the respective language:
 ```markdown
