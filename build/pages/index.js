@@ -1,3 +1,5 @@
+/** This is the build script for the `/<LANG>/index.html` web page. It renders the content from `src/content/pages/index/` to html and builds an index page at `/en/index.html` and `/de/index.html` using the template at `src/templates/page/index.ejs` at and metadata at `src/content/pages/index/meta.json`.**/
+
 const fs = require("fs");
 const ejs = require("ejs");
 const {
@@ -15,11 +17,13 @@ const {
 
 const INDEX_CONTENT_DIR = PAGES_CONTENT_DIR + 'index/';
 
+/** Adds a heading to the rendered html of a section (one markdown file) in the specified language. **/
 function renderSection(lang, id, multilingualMarkdown) {
     return `<h1>${multilingualMarkdown[lang].title}</h1>` +
         multilingualMarkdown[lang].renderedBody;
 }
 
+/** This function renders the five sections of the index page (TODO: don't hardcode five sections). **/
 function renderContent(lang) {
     return {
         placeToStay: renderSection(
@@ -50,6 +54,7 @@ function renderContent(lang) {
     }
 }
 
+// Read and preprocess required data for the EJS template
 const metadata = JSON.parse(fs.readFileSync(INDEX_CONTENT_DIR + 'meta.json', 'utf-8'));
 const metaTags = fs.readFileSync(FRAGMENT_TEMPLATES_DIR + 'metaTags.ejs', 'utf-8');
 const internalCSS = bundleStyles([
@@ -64,7 +69,13 @@ const landing = parseMultilingualMarkdown(INDEX_CONTENT_DIR + 'landing.md');
 const footerTemplate = fs.readFileSync(FRAGMENT_TEMPLATES_DIR + 'footer.ejs', 'utf-8');
 const indexTemplate = fs.readFileSync(PAGE_TEMPLATES_DIR + 'index.ejs', 'utf-8');
 
+/** Use the preprocessed data and EJS template to create an index.html for the specified language. 
+
+The `isRoot` flag is used for creating an additional `index.html` file at the root of the publicly served content, since this is what most browser expect. 
+
+TODO: Configure `/index.html` requests to re-route to `/<LANG>/index.html`. **/
 function buildIndexPage(lang, isRoot) {
+	// Consolidate all the preprocessed data into a single object that can be used by EJS.
     const pageData = {
         ...metadata[lang],
         metaTags: ejs.render(metaTags, {
@@ -95,6 +106,7 @@ module.exports = {
     buildIndexPages() {
         buildIndexPage('en');
         buildIndexPage('de');
+		// Build an additional index.html file in German at the root.
         buildIndexPage('de', true);
     }
 }

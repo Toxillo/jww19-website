@@ -1,3 +1,8 @@
+/** This is the build script for the `/<LANG>/info.html` web page. It renders the content from `src/content/pages/info/` to html and builds the info page at `/en/info.html` and `/de/info.html` using the template at `src/templates/page/info.ejs` and metadata at `src/content/pages/info/meta.json`.
+
+The info page is organized into topics and sections.
+**/
+
 const fs = require("fs");
 const ejs = require("ejs");
 const {
@@ -18,6 +23,7 @@ const path = require("path");
 const INFO_CONTENT_DIR = PAGES_CONTENT_DIR + 'info/';
 const MD_EXT = ".md";
 
+/** Builds a html string that consists of the sections in `src/content/page/info/`. The top-level markdown files contain the section description and the directories contain topics in that section. **/
 function renderContent(lang) {
     let renderedSections = '';
     for (const file of fs.readdirSync(INFO_CONTENT_DIR)) {
@@ -28,6 +34,7 @@ function renderContent(lang) {
     return renderedSections;
 }
 
+/** Render a section using it's filename. Optionally, if a directory exists with the same name as the file (ignoring the extension), the files inside that directory are rendered as topics of the section. **/
 function renderContentSection(sectionFile, lang) {
     const content = parseMultilingualMarkdown(sectionFile);
     const sectionTopicsDir = sectionFile.replace(/\.md$/, '');
@@ -47,6 +54,7 @@ function renderContentSection(sectionFile, lang) {
 
 const topicTemplate = fs.readFileSync(FRAGMENT_TEMPLATES_DIR + 'topic.ejs', 'utf-8');
 
+/** Use the `src/templates/fragments/topic.ejs` template to render the topics for the info page. **/
 function renderTopic(parentDir, topicFile, lang) {
     const topic = parseMultilingualMarkdown(parentDir + '/' + topicFile);
     const topicID = topicFile.replace(/\.md$/, '');
@@ -59,6 +67,7 @@ function renderTopic(parentDir, topicFile, lang) {
     });
 }
 
+/** Renders the index that can be opened with the burger menu for the info page. It uses html fragment links to jump to the appropriate part of the page. **/
 function renderPageIndex(lang) {
     let renderedPageIndex = '';
     for (const sectionDir of fs.readdirSync(INFO_CONTENT_DIR)) {
@@ -76,6 +85,7 @@ function renderPageIndex(lang) {
     return renderedPageIndex;
 }
 
+// Read and preprocess required data for the EJS template
 const metadata = JSON.parse(fs.readFileSync(INFO_CONTENT_DIR + 'meta.json', 'utf-8'));
 const metaTagsTemplate = fs.readFileSync(FRAGMENT_TEMPLATES_DIR + 'metaTags.ejs', 'utf-8');
 const langToggleTemplate = fs.readFileSync(FRAGMENT_TEMPLATES_DIR + 'lang-toggle.ejs', 'utf-8');
@@ -90,7 +100,10 @@ const internalCSS = bundleStyles([
 const footerTemplate = fs.readFileSync(FRAGMENT_TEMPLATES_DIR + 'footer.ejs', 'utf-8');
 const infoTemplate = fs.readFileSync(PAGE_TEMPLATES_DIR + 'info.ejs', 'utf-8');
 
+
+/** Use the preprocessed data and EJS template to create an info.html for the specified language. **/
 function buildInfoPage(lang) {
+	// Consolidate all the preprocessed data into a single object that can be used by EJS.
     const pageData = {
         ...metadata[lang],
         metaTags: ejs.render(metaTagsTemplate, {
