@@ -40,22 +40,6 @@ nav>a {
     width: 14.5rem;
     height: 14.5rem;
     border: 1px solid grey;
-    box-shadow: 0.5rem 1rem 0 0.25rem rgba(255, 193, 99, 0.658);
-}
-
-#contact-nav,
-#contact {
-    box-shadow: 0.5rem 1rem 0 0.25rem rgba(148, 207, 255, 0.658)
-}
-
-#events-nav,
-#events {
-    box-shadow: 0.5rem 1rem 0 0.25rem rgba(165, 255, 147, 0.658);
-}
-
-#about-nav,
-#about {
-    box-shadow: 0.5rem 1rem 0 0.25rem rgba(255, 244, 147, 0.658);
 }
 
 nav>a>h2 {
